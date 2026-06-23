@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Node/React
+interactive-dashboard/node_modules/
+interactive-dashboard/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Massive datasets (Keep these local only)
+*.nc
+*.nc.*
+PanoplyWin*.zip
+Panoply_New/
+orca_npp_raw/
+orca_npp_hdf/
+
+# OS Files
+.DS_Store
+Thumbs.db
